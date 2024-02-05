@@ -1,0 +1,592 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 200vh;
+}
+.box-header{
+    width: 100%;
+    height: 30px;
+    /* background-color: aquamarine; */
+    display: flex;
+    /* justify-content: space-between; */
+}
+.box-header .box-header-in{
+    width: 20%;
+    height: 100%;
+    /* background-color: black; */
+    border-right: 1px solid black;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.box-header .box-header-in a{
+    display: flex;
+    padding: 3px;
+    text-decoration: none;
+}
+.box-header .box-header-in a i{
+    color: black;
+    font-size: 22px;
+}
+.box-header .box-header-in a h4{
+    font-size: 22px;
+    margin-left: 8px;
+    color: black;
+}
+.box-header .box-header-in a i::nth-child(3){
+    color: rgb(255, 0, 0);
+    font-size: 22px;
+}
+.box-header .box-header-in a i:nth-child(4){
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
+.box-header .box-header-in a i:nth-child(5){
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
+.box1{
+    width: 100%;
+    height: 450px;
+    /* background-color: aqua; */
+    /* background-image: url('https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-repeat: no-repeat;
+    background-size:cover ; */
+}
+.box1 .box1-in{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.box1 .box1-in img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box1 .box1-in .box-in1{
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    width: 180px;
+    height: 40px;
+    background-color: rgba(99, 93, 93, 0.74);
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.box1 .box1-in .box-in1:hover{
+    background-color: white;
+    color: black;
+}
+.box1 .box1-in .box-in1 a{
+    text-decoration: none;
+    color: black;
+}
+.box1 .box1-in .box-in1 a h4{
+    text-align: center;
+    margin-top: 6px;
+
+    font-size: 22px;
+}
+.box1 .box1-in .box-in2{
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    width: 180px;
+    height: 40px;
+    background-color: rgba(99, 93, 93, 0.74);
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.box1 .box1-in .box-in2:hover{
+    background-color: white;
+}
+.box1 .box1-in .box-in2 a{
+    text-decoration: none;
+    color: black;
+}
+.box1 .box1-in .box-in2 a h4{
+    text-align: center;
+    margin-top: 6px;
+
+    font-size: 22px;
+}
+.box1 .box1-in .box-in3{
+    position: absolute;
+    top: 80%;
+    left: 55%;
+    width: 180px;
+    height: 40px;
+    background-color: rgba(99, 93, 93, 0.74);
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.box1 .box1-in .box-in3:hover{
+    background-color: white;
+}
+.box1 .box1-in .box-in3 a{
+    text-decoration: none;
+    color: black;
+}
+.box1 .box1-in .box-in3 a h4{
+    text-align: center;
+    margin-top: 6px;
+
+    font-size: 22px;
+}
+.box1 .box1-in .box-in4{
+    position: absolute;
+    top: 80%;
+    left: 75%;
+    width: 180px;
+    height: 40px;
+    background-color: rgba(99, 93, 93, 0.74);
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.box1 .box1-in .box-in4:hover{
+    background-color: white;
+}
+.box1 .box1-in .box-in4 a{
+    text-decoration: none;
+    color: black;
+}
+.box1 .box1-in .box-in4 a h4{
+    text-align: center;
+    margin-top: 6px;
+
+    font-size: 22px;
+}
+.Youtube{
+    color: red;
+}
+.box2{
+    width: 100%;
+    height: 500px;
+    /* background-color: aqua; */
+    display: flex;
+    padding: 6px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.box2 .box2-in{
+    width: 24%;
+    height: 100%;
+    /* background-color: black; */
+    box-shadow: 1px 1px 6px 0px black;
+}
+.box2 .box2-in:hover{
+    width: 24%;
+    height: 100%;
+    /* background-color: black; */
+    box-shadow: 1px 1px 10px 0px rgb(255, 0, 0);
+}
+.box2 .box2-in .box2-img{
+    width: 100%;
+    height: 60%;
+    background-color: red;
+}
+.box2 .box2-in .box2-img img{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    object-fit: cover;
+}
+.box2 .box2-in .box2-txt{
+    width: 100%;
+    height: 40%;
+    /* background-color: rgb(117, 73, 73); */
+    /* padding:14px; */
+}
+
+.box2 .box2-in .box2-txt h3{
+    padding: 10px;
+    font-size: 22px;
+}
+.box2 .box2-in .box2-txt p{
+    padding: 6px;
+    font-size: 22px;
+}
+.box2 .box2-in .box2-txt button{
+    width: 
+    150px;
+    height: 40px;
+    /* background-color: black; */
+    border: none;
+    box-shadow: 1px 1px 5px 0px black;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-left: 150px;
+    transition: 0.5s;
+}
+.box2 .box2-in .box2-txt button a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.box2 .box2-in .box2-txt button:hover{
+    background-color: rgb(206, 191, 191);
+    /* color: white; */
+}
+.box10{
+    width: 100%;
+    height: 50px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(61,22,235,1) 46%, rgba(0,212,255,1) 100%);
+    padding: 6px;
+    margin-top: 10px;
+}
+.box10 h1{
+    color: white;
+    /* margin-top: 6px; */
+    margin-left: 10px;
+}
+.box3{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+}
+.box3 .box3-in1{
+    width: 30%;
+    height: 20%;
+    /* background-color: black; */
+    margin: auto;
+}
+.box3 .box3-in2{
+    width: 30%;
+    height: 20%;
+    /* Eavbackground-color: black; */
+    /* margin-top: 600px; */
+    margin-left: 900px;
+    margin-top: 150px;
+}
+.box3 .box3-in2 p{
+    font-size: 22px;
+    font-family: Koulen;
+    color: white;
+}
+/* .box3 .box3-in2 h1{
+    margin-left:170px;
+    font-family: Protest Riot;
+    color: white;
+    font-size: 22px;
+} */
+h1{
+    margin-left:90px;
+    font-family: Protest Riot;
+    color: white;
+    font-size: 22px;
+}
+.box3 .box3-in2 h4{
+    margin-left:170px;
+    font-family: Protest Riot;
+    color: white;
+    font-size: 22px;
+}
+/* Extra larg */
+@media(min-width:1200px){
+
+}
+ /* Large devices (desktops, 992px and up) */
+@media(min-width:992px) and (max-width:1199.98px){
+
+}
+
+
+/* Medium device */
+@media(min-width: 768px) and (max-width:991.98px){
+
+}
+/*small device*/
+@media(min-width:576px) and (max-width:767.98px){
+}
+
+/*Extra small device  */
+@media(max-width:575px){
+    .box-header{
+        width: 390px;
+        height: 30px;
+        /* background-color: aquamarine; */
+        display: flex;
+        /* justify-content: space-between; */
+    }
+    .box-header .box-header-in{
+        width: 20%;
+        height: 100%;
+        /* background-color: black; */
+        border-right: 1px solid black;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .box-header .box-header-in a{
+        display: flex;
+        padding: 3px;
+        text-decoration: none;
+    }
+    .box-header .box-header-in a i{
+        color: black;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .box-header .box-header-in a h4{
+        font-size: 12px;
+        margin-left: 8px;
+        color: black;
+        margin-top: 5px;
+        overflow: hidden;
+    }
+    .box-header .box-header-in a i::nth-child(3){
+        color: rgb(255, 0, 0);
+        font-size: 22px;
+    }
+    .box-header .box-header-in a i:nth-child(4){
+        color: rgb(0, 0, 0);
+        font-size: 22px;
+    }
+    .box-header .box-header-in a i:nth-child(5){
+        color: rgb(0, 0, 0);
+        font-size: 22px;
+    }
+    .box1{
+        width: 100%;
+        height: 200px;
+        /* background-color: aqua; */
+        /* background-image: url('https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=600');
+        background-repeat: no-repeat;
+        background-size:cover ; */
+    }
+    .box1 .box1-in{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .box1 .box1-in img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .box1 .box1-in .box-in1{
+        position: absolute;
+        top: 80%;
+        left: 10%;
+        width: 80px;
+        height: 40px;
+        background-color: rgba(99, 93, 93, 0.74);
+        border-radius: 8px;
+        transition: 0.5s;
+    }
+    .box1 .box1-in .box-in1:hover{
+        background-color: white;
+        color: black;
+    }
+    .box1 .box1-in .box-in1 a{
+        text-decoration: none;
+        color: black;
+    }
+    .box1 .box1-in .box-in1 a h4{
+        text-align: center;
+        margin-top: 6px;
+    
+        font-size: 22px;
+    }
+    .box1 .box1-in .box-in2{
+        position: absolute;
+        top: 80%;
+        left: 35%;
+        width: 120px;
+        height: 40px;
+        background-color: rgba(99, 93, 93, 0.74);
+        border-radius: 8px;
+        transition: 0.5s;
+    }
+    .box1 .box1-in .box-in2:hover{
+        background-color: white;
+    }
+    .box1 .box1-in .box-in2 a{
+        text-decoration: none;
+        color: black;
+    }
+    .box1 .box1-in .box-in2 a h4{
+        text-align: center;
+        margin-top: 6px;
+    
+        font-size: 22px;
+    }
+    .box1 .box1-in .box-in3{
+        position: absolute;
+        top: 80%;
+        left: 70%;
+        width: 80px;
+        height: 40px;
+        background-color: rgba(99, 93, 93, 0.74);
+        border-radius: 8px;
+        transition: 0.5s;
+    }
+    .box1 .box1-in .box-in3:hover{
+        background-color: white;
+    }
+    .box1 .box1-in .box-in3 a{
+        text-decoration: none;
+        color: black;
+    }
+    .box1 .box1-in .box-in3 a h4{
+        text-align: center;
+        margin-top: 6px;
+    
+        font-size: 22px;
+    }
+    .box1 .box1-in .box-in4{
+        position: absolute;
+        top: 80%;
+        left: 75%;
+        width: 180px;
+        height: 40px;
+        background-color: rgba(99, 93, 93, 0.74);
+        border-radius: 8px;
+        transition: 0.5s;
+        display: none;
+    }
+    .box1 .box1-in .box-in4:hover{
+        background-color: white;
+    }
+    .box1 .box1-in .box-in4 a{
+        text-decoration: none;
+        color: black;
+    }
+    .box1 .box1-in .box-in4 a h4{
+        text-align: center;
+        margin-top: 6px;
+    
+        font-size: 22px;
+    }
+    .Youtube{
+        color: red;
+    }
+    .box2{
+        width: 390;
+        height: 270px;
+        /* background-color: aqua; */
+        display: flex;
+        padding: 6px;
+        margin-top: 3px;
+        justify-content: space-between;
+    }
+    .box2 .box2-in{
+        width: 24%;
+        height: 100%;
+        /* background-color: black; */
+        box-shadow: 1px 1px 6px 0px black;
+    }
+    .box2 .box2-in:hover{
+        width: 24%;
+        height: 100%;
+        /* background-color: black; */
+        box-shadow: 1px 1px 10px 0px rgb(255, 0, 0);
+    }
+    .box2 .box2-in .box2-img{
+        width: 100%;
+        height: 60%;
+        background-color: red;
+    }
+    .box2 .box2-in .box2-img img{
+        width: 100%;
+        height: 100%;
+        /* background-color: red; */
+        object-fit: cover;
+    }
+    .box2 .box2-in .box2-txt{
+        width: 100%;
+        height: 40%;
+        /* background-color: rgb(117, 73, 73); */
+        /* padding:14px; */
+    }
+    
+    .box2 .box2-in .box2-txt h3{
+        padding: 1px;
+        font-size: 12px;
+    }
+    .box2 .box2-in .box2-txt p{
+        padding: 3px;
+        font-size: 12px;
+    }
+    .box2 .box2-in .box2-txt button{
+        width: 
+        50px;
+        height: 20px; 
+        overflow: hidden;
+        /* background-color: black; */
+        border: none;
+        box-shadow: 1px 1px 5px 0px black;
+        border-radius: 5px;
+        margin-top: 0px;
+        margin-bottom: 3px;
+        margin-left: 30px;
+        transition: 0.5s;
+    }
+    .box2 .box2-in .box2-txt button a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+    }
+    .box2 .box2-in .box2-txt button:hover{
+        background-color: rgb(206, 191, 191);
+        /* color: white; */
+    }
+    .box10{
+        width: 100%;
+        height: 50px;
+        background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(61,22,235,1) 46%, rgba(0,212,255,1) 100%);
+        padding: 6px;
+        margin-top: 8px;
+    }
+    .box10 h1{
+        color: white;
+        /* margin-top: 6px; */
+        margin-left: 10px;
+    }
+    .box3{
+        width: 100%;
+        height: 200px;
+        background-color: rgb(0, 0, 0);
+        margin-top: 10px;
+    }
+    .box3 .box3-in1{
+        width: 70%;
+        height: 20%;
+        /* background-color: black; */
+        margin: auto;
+        margin-left: 90px;
+    }
+    .box3 .box3-in2{
+        width: 100%;
+        height: 20%;
+        /* Eavbackground-color: black; */
+        /* margin-top: 600px; */
+        margin-left: 0px;
+        margin-top: 80px;
+    }
+    .box3 .box3-in2 p{
+        font-size: 22px;
+        font-family: Koulen;
+        color: rgb(255, 255, 255);
+    }
+    /* .box3 .box3-in2 h1{
+        margin-left:170px;
+        font-family: Protest Riot;
+        color: white;
+        font-size: 22px;
+    } */
+    h1{
+        margin-left:10px;
+        font-family: Protest Riot;
+        color: rgb(255, 255, 255);
+        font-size: 22px;
+    }
+    .box3 .box3-in2 h4{
+        margin-left:260px;
+        font-family: Protest Riot;
+        color: rgb(255, 255, 255);
+        font-size: 22px;
+    }
+}
